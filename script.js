@@ -1,3 +1,5 @@
+//r first snack
+
 const bikes = [
 
     {
@@ -12,7 +14,7 @@ const bikes = [
 
     {
         name : `run bike`,
-        weightKg : 10
+        weightKg : 9
     },
 
     {
