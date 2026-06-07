@@ -88,3 +88,16 @@ const soccerTeams = [
         faulsSuffered : randomNumber(),
     }
 ];
+
+const newArr = [];
+
+for (const item of soccerTeams) {
+
+    newArr.push({
+        
+        name : item.name,
+        faulsSuffered : item.faulsSuffered
+    })
+}
+
+console.log(newArr);
